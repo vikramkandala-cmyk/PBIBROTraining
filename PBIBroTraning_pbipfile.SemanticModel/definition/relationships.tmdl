@@ -1,0 +1,5 @@
+relationship 777ab599-b3f9-415f-bf5a-2ba716175e29
+	joinOnDateBehavior: datePartOnly
+	fromColumn: TSLA.Date
+	toColumn: LocalDateTable_0cc02b6d-fdc9-447d-ad3a-305b1280228b.Date
+

@@ -1,0 +1,20 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["TSLA"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table TSLA
+ref table DateTableTemplate_97b8ed14-98fc-438f-b3fd-baa22e925753
+ref table LocalDateTable_0cc02b6d-fdc9-447d-ad3a-305b1280228b
+
+ref cultureInfo en-US
+
